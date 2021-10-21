@@ -2,6 +2,7 @@ package com.taufiqrahman.ratingreviews;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import com.taufiqrahman.reviewratings.RatingReviews;
 
 import java.util.Random;
 
-public class Example2Activity extends AppCompatActivity {
+public class Example2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

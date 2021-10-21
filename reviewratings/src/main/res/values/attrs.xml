@@ -8,6 +8,7 @@
         </attr>
 
         <attr name="color" format="color" />
+        <attr name="background_color" format="color" />
         <attr name="rounded" format="boolean"/>
         <attr name="gradiant" format="integer" />
         <attr name="width" format="dimension" />

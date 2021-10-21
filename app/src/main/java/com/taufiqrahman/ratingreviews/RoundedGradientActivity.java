@@ -2,6 +2,7 @@ package com.taufiqrahman.ratingreviews;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Pair;
@@ -11,7 +12,7 @@ import com.taufiqrahman.reviewratings.RatingReviews;
 
 import java.util.Random;
 
-public class RoundedGradientActivity extends AppCompatActivity {
+public class RoundedGradientActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

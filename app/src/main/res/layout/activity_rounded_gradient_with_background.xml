@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RoundBarSampleActivity" >
+    tools:context=".RoundedGradientWithBackgroundActivity" >
 
     <com.taufiqrahman.reviewratings.RatingReviews xmlns:bar="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rating_reviews"
@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
         bar:animation="true"
+        bar:background_color="#efefef"
         bar:max_value="100"
         bar:show_label="true"
         bar:show_raters="false"

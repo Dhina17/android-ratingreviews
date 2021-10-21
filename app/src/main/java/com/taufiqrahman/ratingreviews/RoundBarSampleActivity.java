@@ -1,5 +1,6 @@
 package com.taufiqrahman.ratingreviews;
 
+import android.app.Activity;
 import android.graphics.Color;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +9,7 @@ import com.taufiqrahman.reviewratings.RatingReviews;
 
 import java.util.Random;
 
-public class RoundBarSampleActivity extends AppCompatActivity {
+public class RoundBarSampleActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
